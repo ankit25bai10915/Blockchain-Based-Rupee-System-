@@ -318,40 +318,38 @@ mvn clean test
 
 ## 12. Visual Demonstrations & Screenshots
 
-> **Note:** Save your application screenshots inside the `screenshots/` directory using the filenames referenced below.
 
 ### 1. Main Welcome Screen & Menu
 *Displaying the application banner, system options (User Login, Registration, Admin Login, Exit).*
-```markdown
+
 ![Main Welcome Menu](screenshots/01_main_menu.png)
-```
+
 
 
 ---
 
 ### 2. User Registration & Wallet Allocation
 *Registering a new citizen account and automatically provisioning a unique Wallet ID.*
-```markdown
+
 ![User Registration](screenshots/02_user_registration.png)
-```
 
 
 ---
 
 ### 3. User Login & Wallet Balance Inspection
 *Logging in as an authenticated user and inspecting the available Digital Rupee balance.*
-```markdown
+
 ![User Wallet Inspection](screenshots/03_user_wallet.png)
-```
+
 
 
 ---
 
 ### 4. Transferring Digital Rupees
 *Sending Digital Rupees from Sender to Receiver, staging the transaction with `PENDING` status.*
-```markdown
+
 ![Transfer Transaction](screenshots/04_transfer_rupees.png)
-```
+
 
 
 
@@ -359,18 +357,18 @@ mvn clean test
 
 ### 5. Proof-of-Work Block Mining Execution
 *Executing Proof-of-Work to find the golden nonce matching difficulty requirement `000...`.*
-```markdown
+
 ![Mining Execution](screenshots/05_mining_execution.png)
-```
+
 
 
 ---
 
 ### 6. Blockchain Inspection & Ledger Explorer
 *Viewing the completed blockchain blocks showing Index, Timestamp, Nonce, Previous Hash, and Current Hash.*
-```markdown
+
 ![Blockchain Ledger](screenshots/06_blockchain_view.png)
-```
+
 
 
 
