@@ -10,8 +10,7 @@ database itself preserves no evidence that the record ever looked different.
 Independent auditors must therefore trust logs produced by the same party
 being audited.
 
-This project addresses that gap by implementing a **digital rupee (e-Rupee /
-CBDC) transaction ledger** in which:
+This project addresses that gap by implementing a **digital rupee transaction ledger** in which:
 
 - Settled transactions are cryptographically immutable.
 - Every record is independently verifiable by recomputing its hash, rather
