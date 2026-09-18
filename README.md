@@ -325,7 +325,7 @@ mvn clean test
 ```markdown
 ![Main Welcome Menu](screenshots/01_main_menu.png)
 ```
-*(Paste Screenshot Here)*
+
 
 ---
 
@@ -334,7 +334,7 @@ mvn clean test
 ```markdown
 ![User Registration](screenshots/02_user_registration.png)
 ```
-*(Paste Screenshot Here)*
+
 
 ---
 
@@ -343,7 +343,7 @@ mvn clean test
 ```markdown
 ![User Wallet Inspection](screenshots/03_user_wallet.png)
 ```
-*(Paste Screenshot Here)*
+
 
 ---
 
@@ -352,7 +352,7 @@ mvn clean test
 ```markdown
 ![Transfer Transaction](screenshots/04_transfer_rupees.png)
 ```
-*(Paste Screenshot Here)*
+
 
 
 ---
@@ -362,7 +362,7 @@ mvn clean test
 ```markdown
 ![Mining Execution](screenshots/05_mining_execution.png)
 ```
-*(Paste Screenshot Here)*
+
 
 ---
 
@@ -371,7 +371,6 @@ mvn clean test
 ```markdown
 ![Blockchain Ledger](screenshots/06_blockchain_view.png)
 ```
-*(Paste Screenshot Here)*
 
 
 
