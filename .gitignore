@@ -1,0 +1,5 @@
+target/
+database/*.mv.db
+data/*.txt
+data/*.log
+data/*backup*
