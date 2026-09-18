@@ -6,13 +6,34 @@
 [![Testing](https://img.shields.io/badge/Tests-JUnit%205-25A162.svg)](https://junit.org/junit5/)
 [![Cryptography](https://img.shields.io/badge/Security-SHA--256-blueviolet.svg)](https://en.wikipedia.org/wiki/SHA-2)
 
-A robust, full-featured academic simulation of a **Blockchain-Based Digital Rupee (e-Rupee / CBDC) Transaction Ledger**. This system combines cryptographic hashing, distributed-style proof-of-work (PoW) consensus, persistent relational storage, and real-time tampering detection into a clean, modular Java architecture.
+A robust, full-featured academic simulation of a **Blockchain-Based Digital Rupee Transaction Ledger**. This system combines cryptographic hashing, distributed-style proof-of-work (PoW) consensus, persistent relational storage, and real-time tampering detection into a clean, modular Java architecture.
 
 > **Disclaimer:** This software is developed strictly for academic and educational purposes (VITyarthi Project). It operates entirely as a local simulation—no real currency or financial institutions are involved.
 
 ---
 
+## ⚡ Quick Access & Default Credentials
+
+To run and evaluate the system immediately, launch the console application using:
+
+```powershell
+mvn exec:java
+```
+
+Use the following pre-configured credentials to log in:
+
+| Portal / Role | User ID / Username | Password | Role & Permissions |
+| :--- | :--- | :--- | :--- |
+| **🛡️ Admin Portal** | `admin` | `admin123` | Mine pending transactions, validate blockchain integrity, simulate tampering, export backups |
+| **👤 User Account 1** | `U1001` | `alice123` | Pre-seeded user with initial test balance for P2P transfers |
+| **👤 User Account 2** | `U1002` | `bob123` | Pre-seeded user with initial test balance for P2P transfers |
+
+> 💡 **Tip:** You can also register new citizen accounts dynamically with auto-generated Wallet IDs directly via **Main Menu Option 2**.
+
+---
+
 ## Table of Contents
+- [⚡ Quick Access & Default Credentials](#-quick-access--default-credentials)
 1. [Project Overview & Objectives](#1-project-overview--objectives)
 2. [Problem Statement & Solution](#2-problem-statement--solution)
 3. [System Architecture & Workflow](#3-system-architecture--workflow)
@@ -325,7 +346,6 @@ mvn clean test
 ![Main Welcome Menu](screenshots/01_main_menu.png)
 
 
-
 ---
 
 ### 2. User Registration & Wallet Allocation
@@ -341,16 +361,12 @@ mvn clean test
 
 ![User Wallet Inspection](screenshots/03_user_wallet.png)
 
-
-
 ---
 
 ### 4. Transferring Digital Rupees
 *Sending Digital Rupees from Sender to Receiver, staging the transaction with `PENDING` status.*
 
 ![Transfer Transaction](screenshots/04_transfer_rupees.png)
-
-
 
 
 ---
@@ -360,15 +376,12 @@ mvn clean test
 
 ![Mining Execution](screenshots/05_mining_execution.png)
 
-
-
 ---
 
 ### 6. Blockchain Inspection & Ledger Explorer
 *Viewing the completed blockchain blocks showing Index, Timestamp, Nonce, Previous Hash, and Current Hash.*
 
 ![Blockchain Ledger](screenshots/06_blockchain_view.png)
-
 
 
 
@@ -398,5 +411,6 @@ mvn clean test
 
 ## Author & Acknowledgements
 - **Student Name:** Ankit Sen
-- **Institution:** VITyarthi / VIT
+- **Registration Number:** 25BAI10915
+- **Institution:** VIT Bhopal
 - **Project Name:** Blockchain-Based Rupee Transaction System
