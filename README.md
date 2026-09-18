@@ -12,7 +12,28 @@ A robust, full-featured academic simulation of a **Blockchain-Based Digital Rupe
 
 ---
 
+## ⚡ Quick Access & Default Credentials
+
+To run and evaluate the system immediately, launch the console application using:
+
+```powershell
+mvn exec:java
+```
+
+Use the following pre-configured credentials to log in:
+
+| Portal / Role | User ID / Username | Password | Role & Permissions |
+| :--- | :--- | :--- | :--- |
+| **🛡️ Admin Portal** | `admin` | `admin123` | Mine pending transactions, validate blockchain integrity, simulate tampering, export backups |
+| **👤 User Account 1** | `U1001` | `alice123` | Pre-seeded user with initial test balance (`₹1,000.00`) |
+| **👤 User Account 2** | `U1002` | `bob123` | Pre-seeded user with initial test balance (`₹500.00`) for P2P transfers |
+
+> 💡 **Tip:** You can also register new citizen accounts dynamically with auto-generated Wallet IDs directly via **Main Menu Option 2**.
+
+---
+
 ## Table of Contents
+- [⚡ Quick Access & Default Credentials](#-quick-access--default-credentials)
 1. [Project Overview & Objectives](#1-project-overview--objectives)
 2. [Problem Statement & Solution](#2-problem-statement--solution)
 3. [System Architecture & Workflow](#3-system-architecture--workflow)
@@ -435,4 +456,5 @@ mvn clean test
 ## Author & Acknowledgements
 - **Student Name:** Ankit Sen
 - **Institution:** VITyarthi / VIT
+- **Project Name:** Blockchain-Based Rupee Transaction System
 - **Project Name:** Blockchain-Based Rupee Transaction System
